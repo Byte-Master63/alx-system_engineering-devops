@@ -1,3 +1,2 @@
 #!/bin/bash
-current_user=$MyUser
-echo "Hello $current_user!"
+echo "hello root!"
