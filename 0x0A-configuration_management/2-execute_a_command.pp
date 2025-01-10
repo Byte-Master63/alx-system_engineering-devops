@@ -1,6 +1,6 @@
-exec { 'kill_process_killmenow':
-  command => 'pkill killmenow',
-  path    => ['/bin', '/usr/bin', '/sbin', '/usr/sbin'],
-  onlyif  => 'pgrep killmenow',
+# execute pkill command to kill bashscript file killmenow
+exec { 'pkill':
+  command => 'pkill -9 -f killmenow',
+  path    => ['/usr/bin', '/usr/sbin', '/bin']
 }
 
