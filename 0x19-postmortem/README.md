@@ -41,10 +41,12 @@ Specific Tasks:
 
 Patch Nginx configuration: Review and increase file descriptor limits to avoid future connection issues.
 
-Update system limits: Modify /etc/security/limits.conf to set nofile limits to 100 or higher.
 
 Re-test after patch: Perform load tests after modifying configuration to ensure the system can handle expected traffic levels.
 
 Implement monitoring: Set up resource utilization alerts for file descriptors, memory, and CPU usage to detect potential issues early.
 
 Document configuration changes: Update internal documentation to reflect best practices for system configuration and resource limits.
+
+![image](https://github.com/user-attachments/assets/1aa63d10-53c7-4f5d-a0db-038fd122fee2)
+
